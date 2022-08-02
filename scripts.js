@@ -7,7 +7,6 @@ function jogar(escolha) {
         
     if (jogador === computador) {
         document.getElementById("visor").value = "EMPATE - JOGUE NOVAMENTE"
-        // alert("EMPATE - JOGUE NOVAMENTE");
       } else if (jogador === 1 && computador === 2) {
         document.getElementById("visor").value = "COMPUTADOR VENCEU"
       } else if (jogador === 1 && computador === 3) {
